@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>ACME Corp. - Home</title>
+  </head>
+  <body>
+    <header>
+      <h1>ACME Corp.</h1>
+      <p>Saving elephants from extinction</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+          <li>
+            <a href="#elephant-facts">Elephant Facts</a>
+          </li>
+          <li>
+            <a href="#contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <figure>
+      <img
+        src="assets/images/elephant.png"
+        alt="drawing of an elephant"
+        id="elephant-image"
+      />
+      <figcaption>Elephants are beautiful creatures.</figcaption>
+    </figure>
+    <article id="about-us">
+      <h2>About Us</h2>
+      <p>
+        ACME Corp. is an organization devoted to restoring world elephant
+        populations and helping increase scientific understanding of these
+        magnificent animals.
+      </p>
+    </article>
+    <section id="elephant-facts">
+      <h2>Elephant Facts</h2>
+      <ul>
+        <li>Elephants are the largest living land animals.</li>
+        <li>All three recognized species of elephant are endangered.</li>
+        <li>
+          Elephants are considered as intelligent as some primates and cetaceans
+          and appear to be self-aware.
+        </li>
+        <li>Elephants are frequently hunted for their ivory tusks.</li>
+      </ul>
+    </section>
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" placeholder="John Doe" /><br />
+        <label for="email">Email address:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="johndoe@mail.com"
+        /><br />
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message here."
+        ></textarea
+        ><br />
+        <input type="submit" value="Send" class="button" />
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2023 ACME Corp.</p>
+    </footer>
+  </body>
+</html>
